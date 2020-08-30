@@ -29,44 +29,44 @@ public class Student {
         return firstName;
     }
 
-    public String getMiddleName() {
-        return middleName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public long getStudentRollNumber() {
-        return studentRollNumber;
-    }
-
-    public int getNumberOfBooksIssuedByStudent() {
-        return numberOfBooksIssuedByStudent;
-    }
-
-    public Book[] getNamesOfBookIssuedByStudent() {
-        return namesOfBookIssuedByStudent;
-    }
-
     public void setFirstName(String firstName) {
         this.firstName = firstName;
+    }
+
+    public String getMiddleName() {
+        return middleName;
     }
 
     public void setMiddleName(String middleName) {
         this.middleName = middleName;
     }
 
+    public String getLastName() {
+        return lastName;
+    }
+
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public long getStudentRollNumber() {
+        return studentRollNumber;
     }
 
     public void setStudentRollNumber(long studentRollNumber) {
         this.studentRollNumber = studentRollNumber;
     }
 
+    public int getNumberOfBooksIssuedByStudent() {
+        return numberOfBooksIssuedByStudent;
+    }
+
     public void setNumberOfBooksIssuedByStudent(int numberOfBooksIssuedByStudent) {
         this.numberOfBooksIssuedByStudent = numberOfBooksIssuedByStudent;
+    }
+
+    public Book[] getNamesOfBookIssuedByStudent() {
+        return namesOfBookIssuedByStudent;
     }
 
     public void setNamesOfBookIssuedByStudent(Book[] namesOfBookIssuedByStudent) {
