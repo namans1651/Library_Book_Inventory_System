@@ -9,17 +9,17 @@ package execution;
 import definitions.Student;
 
 import java.util.Arrays;
-
 public class FrontDesk {
     public static void main(String[] args) {
-        //Student student = new Student("Naman");
-        // Student student1 = student;
-        //if (student == student1) ;
-        // {
-        //    System.out.println("Equal");
-        // }
-        Student student = new Student();
-
+        Student student = new Student("Naman");
+        Student student1 = student;
+        if (student == student1) ;
+        {
+            System.out.println("Equal");
+        }
+        //if we want names to be printed we need to create the object
+        // Student student = new Student();
+        //otherwise it is showing default
         System.out.println(student.getClass().getName());
         System.out.println(student.toString());
         System.out.println(student.getFirstName());
@@ -34,6 +34,5 @@ public class FrontDesk {
                 "2. Return a previously issues book for me.\n" +
                 "3. Show me all my issues books.\n" +
                 "4. Exit.");
-
     }
 }
