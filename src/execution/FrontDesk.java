@@ -11,8 +11,14 @@ import definitions.Student;
 
 public class FrontDesk {
     public static void main(String[] args) {
-        Student student = new Student();
-        System.out.println(student.toString());
+        Student student = new Student("Naman");
+        Student student1 = student;
+
+        if (student.equals(student1)) ;
+        {
+            System.out.println("Equal");
+        }
+        //System.out.println(student.toString());
         //  System.out.println(student.getFirstName());
         // System.out.println(student.getMiddleName());
         // System.out.println(student.getLastName());

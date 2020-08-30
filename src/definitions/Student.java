@@ -25,6 +25,9 @@ public class Student {
         numberOfBooksIssuedByStudent = 5;
     }
 
+    public Student(String firstName) {
+    }
+
     public String getFirstName() {
         return firstName;
     }
