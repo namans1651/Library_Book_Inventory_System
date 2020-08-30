@@ -43,6 +43,10 @@ public class Student {
         this.firstName = firstName;
     }
 
+    public void setMiddleName(String middleName) {
+        this.middleName = middleName;
+    }
+
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
@@ -53,5 +57,9 @@ public class Student {
 
     public void setNumberOfBooksIssuedByStudent(int numberOfBooksIssuedByStudent) {
         this.numberOfBooksIssuedByStudent = numberOfBooksIssuedByStudent;
+    }
+
+    public void setNamesOfBookIssuedByStudent(Book[] namesOfBookIssuedByStudent) {
+        this.namesOfBookIssuedByStudent = namesOfBookIssuedByStudent;
     }
 }
