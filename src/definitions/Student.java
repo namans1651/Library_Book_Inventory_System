@@ -12,6 +12,6 @@ public class Student {
     private String middleName;
     private String lastName;
     private long studentRollNumber;
-
+    private int numberOfBooksIssuedByStudent;
 
 }
