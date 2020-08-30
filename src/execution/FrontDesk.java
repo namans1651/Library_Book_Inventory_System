@@ -14,7 +14,7 @@ public class FrontDesk {
         Student student = new Student("Naman");
         Student student1 = student;
 
-        if (student.equals(student1)) ;
+        if (student == student1) ;
         {
             System.out.println("Equal");
         }
