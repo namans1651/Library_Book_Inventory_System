@@ -5,15 +5,21 @@
  *   File: FrontDesk.java
  */
 package execution;
+
 import definitions.Student;
+
+import java.util.Arrays;
+
 public class FrontDesk {
     public static void main(String[] args) {
+        //Student student = new Student("Naman");
+        // Student student1 = student;
+        //if (student == student1) ;
+        // {
+        //    System.out.println("Equal");
+        // }
         Student student = new Student();
-        Student student1 = student;
-        if (student == student1) ;
-        {
-            System.out.println("Equal");
-        }
+
         System.out.println(student.getClass().getName());
         System.out.println(student.toString());
         System.out.println(student.getFirstName());
@@ -21,6 +27,13 @@ public class FrontDesk {
         System.out.println(student.getLastName());
         System.out.println(student.getStudentRollNumber());
         System.out.println(student.getNumberOfBooksIssuedByStudent());
-        System.out.println(student.getNamesOfBookIssuedByStudent());
+        System.out.println(Arrays.toString(student.getNamesOfBookIssuedByStudent()));
+        System.out.println("-=-=--=-=-\"Welcome To The Front Desk\"-=-=--=-=-\n" +
+                "How may I help you today?\n" +
+                "1. Issue a new book for me.\n" +
+                "2. Return a previously issues book for me.\n" +
+                "3. Show me all my issues books.\n" +
+                "4. Exit.");
+
     }
 }
