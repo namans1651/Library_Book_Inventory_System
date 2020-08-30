@@ -18,4 +18,8 @@ public class Student {
     public String getFirstName() {
         return firstName;
     }
+
+    public String getMiddleName() {
+        return middleName;
+    }
 }
