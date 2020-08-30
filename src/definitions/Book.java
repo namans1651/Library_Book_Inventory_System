@@ -23,4 +23,8 @@ public class Book {
     public String getBookNumber() {
         return bookNumber;
     }
+
+    public void setBookName(String bookName) {
+        this.bookName = bookName;
+    }
 }
