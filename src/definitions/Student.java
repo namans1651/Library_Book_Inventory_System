@@ -30,4 +30,8 @@ public class Student {
     public long getStudentRollNumber() {
         return studentRollNumber;
     }
+
+    public int getNumberOfBooksIssuedByStudent() {
+        return numberOfBooksIssuedByStudent;
+    }
 }
