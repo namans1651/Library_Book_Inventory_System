@@ -11,4 +11,8 @@ public class Book {
     private String bookName;
     private String authorName;
     private String bookNumber;
+
+    public String getBookName() {
+        return bookName;
+    }
 }
