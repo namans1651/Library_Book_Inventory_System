@@ -8,7 +8,7 @@ package execution;
 import definitions.Student;
 public class FrontDesk {
     public static void main(String[] args) {
-        Student student = new Student("Naman");
+        Student student = new Student();
         Student student1 = student;
         if (student == student1) ;
         {
