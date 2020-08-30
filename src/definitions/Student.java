@@ -16,9 +16,11 @@ public class Student {
     private Book[] namesOfBookIssuedByStudent;
 
     public Student() {
-        firstName = "Naman";
-        middleName = " ";
-        lastName = "Sharma";
+        firstName = "Neil";
+        middleName = "Nitin";
+        lastName = "Mukesh";
+        studentRollNumber = 38;
+        numberOfBooksIssuedByStudent = 5;
     }
 
     public String getFirstName() {
