@@ -38,4 +38,8 @@ public class Student {
     public Book[] getNamesOfBookIssuedByStudent() {
         return namesOfBookIssuedByStudent;
     }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
 }
