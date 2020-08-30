@@ -50,4 +50,8 @@ public class Student {
     public void setStudentRollNumber(long studentRollNumber) {
         this.studentRollNumber = studentRollNumber;
     }
+
+    public void setNumberOfBooksIssuedByStudent(int numberOfBooksIssuedByStudent) {
+        this.numberOfBooksIssuedByStudent = numberOfBooksIssuedByStudent;
+    }
 }
