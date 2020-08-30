@@ -27,4 +27,8 @@ public class Book {
     public void setBookName(String bookName) {
         this.bookName = bookName;
     }
+
+    public void setAuthorName(String authorName) {
+        this.authorName = authorName;
+    }
 }
