@@ -15,6 +15,12 @@ public class Student {
     private int numberOfBooksIssuedByStudent;
     private Book[] namesOfBookIssuedByStudent;
 
+    public Student() {
+        firstName = "Naman";
+        middleName = " ";
+        lastName = "Sharma";
+    }
+
     public String getFirstName() {
         return firstName;
     }
