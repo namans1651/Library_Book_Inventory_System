@@ -34,4 +34,8 @@ public class Student {
     public int getNumberOfBooksIssuedByStudent() {
         return numberOfBooksIssuedByStudent;
     }
+
+    public Book[] getNamesOfBookIssuedByStudent() {
+        return namesOfBookIssuedByStudent;
+    }
 }
